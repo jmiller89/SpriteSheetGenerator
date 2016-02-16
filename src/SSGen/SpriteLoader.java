@@ -306,7 +306,7 @@ public class SpriteLoader
         }
         else if (id == 56)
         {
-            return "Sprites/WoodFloor.gif";
+            return "Sprites/woodfloor.png";
         }
         else if (id == 57)
         {
@@ -402,7 +402,7 @@ public class SpriteLoader
         }
         else if (id == 80)
         {
-            return "Sprites/IndoorFloorTile2.gif";
+            return "Sprites/fancyfloor2.png";
         }
         else if (id == 81)
         {
@@ -410,7 +410,7 @@ public class SpriteLoader
         }
         else if (id == 82)
         {
-            return "Sprites/IndoorFloorTile4.gif";
+            return "Sprites/whitetiles.png";
         }
         else if (id == 83)
         {
@@ -554,7 +554,7 @@ public class SpriteLoader
         }
         else if (id == 118)
         {
-            return "Sprites/FancyFloor.gif";
+            return "Sprites/fancyfloor.png";
         }
         else if (id == 119)
         {
@@ -698,11 +698,11 @@ public class SpriteLoader
         }
         else if (id == 154)
         {
-            return "Sprites/binaryfloor.gif";
+            return "Sprites/fancycarpet.png";
         }
         else if (id == 155)
         {
-            return "Sprites/binarywall.gif";
+            return "Sprites/hpainting.png";
         }
         else if (id == 156)
         {
@@ -1088,12 +1088,12 @@ public class SpriteLoader
         {
             return "Sprites/LocationObjective.gif";
         }
-        else if (id == 252){return "Sprites/templewall.jpg";}
-        else if (id == 253){return "Sprites/alienwall.jpg";}
+        else if (id == 252){return "Sprites/stonewall.png";}
+        else if (id == 253){return "Sprites/stonewall2.png";}
         else if (id == 254){return "Sprites/water3.jpg";}
         else if (id == 255){return "Sprites/crimescene.gif";}
         else if (id == 256){return "Sprites/woodfloor2.jpg";}
-        else if (id == 257){return "Sprites/templefloor.jpg";}
+        else if (id == 257){return "Sprites/fancycarpet2.png";}
         else if (id == 258){return "Sprites/surrogate1.gif";}
         else if (id == 259){return "Sprites/surrogate2.gif";}
         else if (id == 260){return "Sprites/surrogate3.gif";}
