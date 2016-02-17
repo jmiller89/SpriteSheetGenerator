@@ -21,11 +21,10 @@ public class SpriteLoader
     private Sprite[] sprites;
 
     //Update this every time a sprite is added
-    public static final int MAX_TILE_INDEX = 391;
+    public static final int MAX_TILE_INDEX = 395;
 
     public SpriteLoader()
     {
-        //sprites = new ArrayList<Sprite>();
         sprites = new Sprite[MAX_TILE_INDEX + 1];
     }
 
@@ -1244,6 +1243,11 @@ public class SpriteLoader
 
         else if (id == 391){return "Sprites/bathroom.png";}
 
+        else if (id == 392){return "Sprites/treetop.png";}
+        else if (id == 393){return "Sprites/treebottom.png";}
+        else if (id == 394){return "Sprites/darktreetop.png";}
+        else if (id == 395){return "Sprites/darktreebottom.png";}
+        
         return "Sprites/Tile0.gif";
 
     }
